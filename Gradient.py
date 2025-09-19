@@ -99,7 +99,7 @@ def generate_dataset(m, n):
         z = dot_product(features, true_theta)
         probability = sigmoid(z)
 
-        # Generate label
+        
         label = 1.0 if random.random() < probability else 0.0
 
         X.append(features)
@@ -277,4 +277,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
