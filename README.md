@@ -12,7 +12,7 @@ The goal is to validate analytical gradients against numerical approximations, e
 
 ## 📂 Files
 - `Gradient.py` → Python implementation (interactive, customizable).  
-- `gradient_check.c` → C implementation (fixed dataset size, efficient).  
+- `gradient checking logistic regression.c` → C implementation (fixed dataset size, efficient).  
 
 ---
 
@@ -37,11 +37,11 @@ The goal is to validate analytical gradients against numerical approximations, e
 ### 💻 C
 1. Compile the C code:
    ```bash
-   gcc gradient_check.c -o gradient_check -lm
+   gcc gradient checking logistic regression.c -o gradient checking logistic regression -lm
    ```
 2. Run:
    ```bash
-   ./gradient_check
+   ./gradient checking logistic regression
    ```
 
 ---
