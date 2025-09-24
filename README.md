@@ -2,35 +2,16 @@
 
 ## 📌 Description
 This project implements **Gradient Checking using Finite Differences** in **Logistic Regression**.  
-It provides two implementations:
+It provides implementations:
 - **C** for performance and low-level demonstration.
-- **Python** for clarity and flexibility.
+
 
 The goal is to validate analytical gradients against numerical approximations, ensuring correctness in optimization algorithms.
 
 ---
 
 ## 📂 Files
-- `Gradient.py` → Python implementation (interactive, customizable).  
 - `gradient checking logistic regression.c` → C implementation (fixed dataset size, efficient).  
-
----
-
-## ⚙️ How to Run
-
-### ▶️ Python
-1. Run the script:
-   ```bash
-   python Gradient.py
-   ```
-2. The program will ask for:
-   - Number of examples `m`
-   - Number of features `n`
-   - Step size `epsilon`
-   - Tolerance
-   - Initial parameters `theta`
-
-   Press **Enter** to use defaults.
 
 ---
 
