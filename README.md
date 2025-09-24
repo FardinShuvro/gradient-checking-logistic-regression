@@ -26,7 +26,25 @@ The goal is to validate analytical gradients against numerical approximations, e
    ```
 
 ---
+## ✨ Features
 
+* Logistic Regression Cost Function
+  Implements sigmoid-based logistic regression with binary labels.
+
+* Gradient Checking
+
+  * Analytical gradient (exact derivative).
+  * Numerical gradient (finite difference approximation).
+  * Reports relative differences and overall validation.
+
+* Advanced Analysis Tools
+
+  1. Save Results to File – Store gradient comparisons in a report.
+  2. Convergence Analysis – Run gradient descent steps and track cost reduction.
+  3. Test Different Epsilons – Explore sensitivity of gradient check to step size.
+  4. Performance Benchmark – Compare runtime of analytical vs. numerical gradients.
+  5. Interactive Mode – Experiment with custom theta values and compute costs/gradients.
+     
 ## 📊 Example Output
 Both codes print a comparison of analytical vs numerical gradients:
 
