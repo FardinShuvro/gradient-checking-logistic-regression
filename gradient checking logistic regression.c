@@ -39,7 +39,7 @@ int main() {
     double epsilon, tolerance;
     double *theta = NULL;
 
-    printf("=== Advanced Gradient Checking for Logistic Regression ===\n\n");
+    printf("=== Gradient Checking for Logistic Regression ===\n\n");
 
     // Get user input
     get_user_input(&m, &n, &epsilon, &tolerance, &theta);
@@ -534,3 +534,4 @@ void interactive_mode(double **X, double *y, double *theta, int m, int n) {
         }
     } while (choice != 0);
 }
+
